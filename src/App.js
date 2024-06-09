@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react'
+
+import 'primereact/resources/themes/saga-blue/theme.css'; 
+import 'primereact/resources/primereact.min.css';           
+import 'primeicons/primeicons.css';                         
+import 'primeflex/primeflex.css';
+import { Button } from 'primereact/button';
+import { Menubar } from 'primereact/menubar';
+import { Image } from 'primereact/image';
 import './App.css';
 
 function App() {
+  const logo = "StreamBox";
+  const signIn = <Button label="Sign In" severity='danger' raised/>
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className='nav-bar'>
+        <Menubar start={logo} end={signIn}/>
+      </div>
+      <div className='hero-section'>
+        <Image src=".././assets/images/banner-bg.png" alt="Banner Image" width="100%" />
+      </div>
+    </>
+  )
 }
 
 export default App;

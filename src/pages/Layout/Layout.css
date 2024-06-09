@@ -1,0 +1,9 @@
+.nav-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .p-menubar{
+    background-color: transparent;
+    border:none;
+  }

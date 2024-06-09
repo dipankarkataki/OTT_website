@@ -7,9 +7,9 @@ import 'primeflex/primeflex.css';
 import { Button } from 'primereact/button';
 import { Menubar } from 'primereact/menubar';
 import { Image } from 'primereact/image';
-import './App.css';
+import './Layout.css';
 
-function App() {
+function Layout() {
   const logo = "StreamBox";
   const signIn = <Button label="Sign In" severity='danger' raised/>
   return (
@@ -24,4 +24,4 @@ function App() {
   )
 }
 
-export default App;
+export default Layout;

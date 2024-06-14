@@ -1,0 +1,25 @@
+.hero-text-container{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -80%);
+    text-align: center;
+}
+
+.hero-text-container .heading{
+    font-size:50px;
+}
+.hero-text-container .sub-heading{
+    color: #c9c8c8;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.hero-text-container .p-button-danger{
+    font-size:20px;
+}
+.hero-text-container .p-button-danger .pi-play-circle{
+    font-size: 30px;
+}

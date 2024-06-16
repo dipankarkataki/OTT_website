@@ -15,7 +15,7 @@ function AcrossDevices() {
             </div>
         </div>
 
-        <div className="card flex flex-row justify-content-between align-items-center gap-5 mb-5 device-cards">
+        <div className="card flex sm:flex-row flex-wrap justify-content-between align-items-center gap-5 mb-5 device-cards">
             <Card className='w-12 h-14rem p-3'>
                 <div className='flex flex-row justify-content-start align-items-center device-card-title'>
                     <div className='icon'>

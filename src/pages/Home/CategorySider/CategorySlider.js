@@ -6,7 +6,7 @@ import CategoryCards from '../../CategoryCards/CategoryCards';
 function CategorySlider() {
   return (
     <>
-        <div className='mx-auto w-10 pb-8'>
+        <div className='mx-auto w-10 pb-2'>
             <div className='flex flex-row justify-content-between'>
                 <div className='heading-section'>
                     <h1 style={{color:'white'}}>Explore our wide variety of categories</h1>

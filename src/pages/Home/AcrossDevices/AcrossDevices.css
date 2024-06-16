@@ -1,0 +1,18 @@
+.p-card{
+    background-color: black;
+}
+.device-card-title{
+    margin-left:30px;
+}
+.device-card-title .icon {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background: #262626;
+}
+
+.device-card-title .icon .pi {
+    font-size:30px;
+    color:red;
+}

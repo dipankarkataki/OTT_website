@@ -2,6 +2,7 @@ import React from 'react'
 import './CategorySlider.css';
 import CategoryCards from '../../CategoryCards/CategoryCards';
 
+
 function CategorySlider() {
   return (
     <>
@@ -13,9 +14,6 @@ function CategorySlider() {
                 </div>
             </div>
             <div className='flex flex-row justify-content-between category-content mt-5 pb-8 gap-3'>
-                <CategoryCards />
-                <CategoryCards />
-                <CategoryCards />
                 <CategoryCards />
             </div>  
         </div>

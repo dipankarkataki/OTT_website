@@ -40,7 +40,7 @@
 }
 .p-carousel-indicators{
     position: absolute;
-    right: 12%;
+    right: 16%;
     margin-top: -150px;
     border: 2px solid #1e1e1e;
     margin-inline-start: auto;
@@ -52,14 +52,14 @@
 .p-carousel-prev{
     position: absolute;
     z-index: 1;
-    right: 22%;
+    right: 26%;
     margin-top: -725px;
 }
 
 .p-carousel-next{
     position: absolute;
     z-index: 1;
-    right: 8%;
+    right: 12%;
     margin-top: -725px;
 }
 

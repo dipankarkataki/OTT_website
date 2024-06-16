@@ -1,0 +1,11 @@
+.plan-cards .p-card{
+    background-color: rgba(65, 64, 64, 0.199);
+    border: 1px solid rgba(104, 103, 103, 0.342);
+}
+.plan-cards .free-trial-btn{
+    border: 2px solid #222222;
+    padding: 14px;
+    box-shadow: rgb(0 0 0) 3px 3px 6px 0px inset, rgb(0 0 0 / 50%) -3px -3px 6px 1px inset;
+    background: #141414;
+    border-radius: 5px;
+}

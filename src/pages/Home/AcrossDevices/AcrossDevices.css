@@ -1,5 +1,6 @@
-.p-card{
-    background-color: black;
+.device-cards .p-card{
+    background-color: rgba(0, 0, 0, 0.226);
+    border: 1px solid black;
 }
 .device-card-title{
     margin-left:30px;

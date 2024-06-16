@@ -3,6 +3,8 @@ import './Home.css';
 import Banner from './Banner/Banner';
 import CategorySlider from './CategorySider/CategorySlider';
 import AcrossDevices from './AcrossDevices/AcrossDevices';
+import Plans from '../Subscription/Plans';
+import FreeTrialBanner from './FreeTrialBanner/FreeTrialBanner';
 
 function Home() {
   return (
@@ -10,6 +12,8 @@ function Home() {
       <Banner />
       <CategorySlider />
       <AcrossDevices />
+      <Plans />
+      <FreeTrialBanner />
     </>
     
   )

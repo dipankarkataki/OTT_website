@@ -41,7 +41,7 @@ function CategoryCards() {
         return (
            <div className='movie-card mr-3'>
                 <div className='movie-img'>
-                    <Image src=".././assets/images/intersteller.jpg" alt="Image"  width="100%" />;
+                    <Image src=".././assets/images/archer.jpg" alt="Image"  width="100%" />;
                 </div>
                 <div className='movie-genre flex flex-row justify-content-between align-items-center'>
                     <h3 className='text-white-alpha-80'>Action</h3>

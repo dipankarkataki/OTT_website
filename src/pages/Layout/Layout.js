@@ -33,7 +33,7 @@ function Layout() {
 
       <Outlet/>
 
-      <div className='footer p-5'>
+      <div className='footer p-5 mt-5'>
         <div className='flex flex-row justify-content-around sm:flex-wrap'>
           <div className='footer-items'>
             <h4 className='text-white'>Movies</h4>

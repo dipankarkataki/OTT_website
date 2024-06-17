@@ -1,0 +1,9 @@
+.signup .media-area{
+    margin:100px;
+}
+.signup .form-area{
+    background: black;
+    height: 100%;
+    padding: 50px;
+    margin-top: 100px;
+}

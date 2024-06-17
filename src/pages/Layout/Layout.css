@@ -46,3 +46,12 @@
     border-top:1px solid rgba(104, 104, 104, 0.329);
 }
 
+@media only screen and (max-width:450px){
+    .copy-and-terms{
+        margin-top:20px;
+        margin-left:0px;
+        margin-right: 0px;
+        border-top:1px solid rgba(104, 104, 104, 0.329);
+    }
+}
+

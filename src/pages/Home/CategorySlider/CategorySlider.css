@@ -4,3 +4,10 @@
 .category-content{
     padding-top:40px;
 }
+
+@media only screen and (max-width:450px){
+    .category-slider .heading-section h1{
+        font-size:25px;
+        margin-top:100px;
+    }
+}

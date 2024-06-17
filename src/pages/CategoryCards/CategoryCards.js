@@ -33,12 +33,17 @@ function CategoryCards() {
             breakpoint: '575px',
             numVisible: 1,
             numScroll: 1
+        },
+        {
+            breakpoint: '450px',
+            numVisible: 3,
+            numScroll: 1
         }
     ];
 
     const movieTemplate = (movie) => {
         return (
-           <div className='movie-card mr-3'>
+           <div className='movie-card ml-3 mr-3'>
                 <div className='movie-img'>
                     <Image src=".././assets/images/archer.jpg" alt="Image"  width="100%" />;
                 </div>
@@ -51,7 +56,7 @@ function CategoryCards() {
     };
 
     return (
-        <div className="card">
+        <div className="card ">
             <Carousel value={movie} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={movieTemplate} />
         </div>
     )

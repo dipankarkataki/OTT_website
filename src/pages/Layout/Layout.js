@@ -34,7 +34,7 @@ function Layout() {
       <Outlet/>
 
       <div className='footer p-5 mt-5'>
-        <div className='flex flex-row justify-content-around sm:flex-wrap'>
+        <div className='flex flex-row justify-content-around flex-wrap'>
           <div className='footer-items'>
             <h4 className='text-white'>Movies</h4>
             <ul className='footer-items-list'>
@@ -75,9 +75,9 @@ function Layout() {
           </div>
         </div>
         
-        <div className='copy-and-terms flex flex-row justify-content-between align-items-center'>
+        <div className='copy-and-terms flex flex-row flex-wrap justify-content-start'>
           <h5 className='text-white-alpha-60'>&copy; StreamTube. All Rights Reserved.</h5>
-          <div className='terms flex flex-row justify-content-between align-items-center'>
+          <div className='terms flex flex-row justify-content-between'>
             <Button className='text-sm text-white-alpha-60' label='Terms of Use' link />
             <Button className='text-sm text-white-alpha-60' label='Privacy Policy' link />
             <Button className='text-sm text-white-alpha-60' label='Cookie Ploicy' link />

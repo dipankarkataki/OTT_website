@@ -14,8 +14,8 @@ function Plans() {
                 </p>
             </div>
         </div>
-        <div className='plan-cards flex flex-row justify-content-between align-items-center gap-5 mb-5'>
-            <Card className='px-4 py-4 h-20rem w-10'>
+        <div className='plan-cards flex flex-row flex-wrap md:flex-nowrap justify-content-between align-items-center gap-5 mb-5'>
+            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Basic Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Enjoy and extensive collection of movies and shows, 
                     featuring a range of content, including recent releases.
@@ -26,7 +26,7 @@ function Plans() {
                     <Button label='Choose Plan' severity='danger'/>
                 </div>
             </Card>
-            <Card className='px-4 py-4 h-20rem w-10'>
+            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Standard Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Access to wider selection of movies and shows. Including most new releases and exclusive content.
                 </p>
@@ -36,7 +36,7 @@ function Plans() {
                     <Button label='Choose Plan' severity='danger'/>
                 </div>
             </Card>
-            <Card className='px-4 py-4 h-20rem w-10'>
+            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Premium Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Enjoy and extensive collection of movies and shows, with our offline watch feature.
                 </p>

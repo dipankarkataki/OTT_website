@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css';
 import Banner from './Banner/Banner';
-import CategorySlider from './CategorySider/CategorySlider';
+import CategorySlider from './CategorySlider/CategorySlider';
 import AcrossDevices from './AcrossDevices/AcrossDevices';
 import Plans from '../Subscription/Plans';
 import FreeTrialBanner from './FreeTrialBanner/FreeTrialBanner';

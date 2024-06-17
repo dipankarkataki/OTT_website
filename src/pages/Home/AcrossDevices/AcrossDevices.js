@@ -15,8 +15,8 @@ function AcrossDevices() {
             </div>
         </div>
 
-        <div className="card flex flex-row justify-content-between align-items-center gap-5 mb-5 device-cards">
-            <Card className='w-12 h-14rem p-3'>
+        <div className="card flex flex-row flex-wrap md:flex-nowrap justify-content-between align-items-center gap-5 mb-5 device-cards">
+            <Card className='w-full md:w-1/4 h-14rem p-3'>
                 <div className='flex flex-row justify-content-start align-items-center device-card-title'>
                     <div className='icon'>
                         <i className='pi pi-mobile'></i>
@@ -28,7 +28,7 @@ function AcrossDevices() {
                     Download out app from Play Store or App Store.
                 </p>
             </Card>
-            <Card className='w-12 h-14rem p-3'>
+            <Card className='w-full md:w-1/4 h-14rem p-3'>
                 <div className='flex flex-row justify-content-start align-items-center device-card-title'>
                     <div className='icon'>
                         <i className='pi pi-desktop'></i>
@@ -39,7 +39,7 @@ function AcrossDevices() {
                     StreamTube is optimized for all types of laptop screens.
                 </p>
             </Card>
-            <Card className='w-12 h-14rem p-3'>
+            <Card className='w-full md:w-1/4 h-14rem p-3'>
                 <div className='flex flex-row justify-content-start align-items-center device-card-title'>
                     <div className='icon'>
                         <i className='pi pi-tablet'></i>
@@ -51,7 +51,7 @@ function AcrossDevices() {
                     Download out app from Play Store or App Store.
                 </p>
             </Card>
-            <Card className='w-12 h-14rem p-3'>
+            <Card className='w-full md:w-1/4 h-14rem p-3'>
                 <div className='flex flex-row justify-content-start align-items-center device-card-title'>
                     <div className='icon'>
                         <i className='pi pi-youtube'></i>

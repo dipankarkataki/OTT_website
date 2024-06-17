@@ -24,8 +24,18 @@
     font-size: 30px;
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:450px){
+    .hero-text-container {
+        top: 30%;;
+    }
     .hero-text-container .heading {
-        font-size: 20px;
+        font-size: 30px;
+        margin-bottom:80px;
+    }
+    .hero-text-container .p-button-danger{
+        font-size:14px;
+    }
+    .hero-text-container .p-button-danger .pi-play-circle{
+        font-size: 15px;
     }
 }

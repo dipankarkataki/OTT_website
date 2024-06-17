@@ -71,3 +71,27 @@
     height: 0.2rem;
     background-color: #3c3c3c;
 }
+
+
+@media only screen and (max-width:450px){
+    .p-carousel-indicators {
+        position: absolute;
+        right: 30%;
+        margin-top: 500px;
+        padding-bottom: 10px;
+    }
+
+    .p-carousel-prev{
+        position: absolute;
+        z-index: 1;
+        left: 10%;
+        margin-top: 580px;
+    }
+    
+    .p-carousel-next{
+        position: absolute;
+        z-index: 1;
+        right: 15%;
+        margin-top: 580px;
+    }
+}

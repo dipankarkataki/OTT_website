@@ -73,10 +73,10 @@
 }
 
 
-@media only screen and (max-width:450px){
+@media only screen and (min-width:361px) and (max-width:450px){
     .p-carousel-indicators {
         position: absolute;
-        right: 28%;
+        right: 24%;
         margin-top: 500px;
         padding-bottom: 10px;
     }
@@ -91,7 +91,43 @@
     .p-carousel-next{
         position: absolute;
         z-index: 1;
-        right: 12%;
+        right: 8%;
         margin-top: 580px;
     }
 }
+
+@media only screen and (max-width:360px){
+    .p-carousel-indicators {
+        position: absolute;
+        right: 28%;
+        margin-top: 400px;
+        padding-bottom: 10px;
+    }
+
+    .p-carousel-prev{
+        position: absolute;
+        z-index: 1;
+        left: 10%;
+        margin-top: 480px;
+    }
+    
+    .p-carousel-next{
+        position: absolute;
+        z-index: 1;
+        right: 8%;
+        margin-top: 480px;
+    }
+
+    .movie-img {
+        max-height: 300px;
+    }
+
+    .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+        width: 1rem;
+    }
+    
+    .category-content {
+        padding-top: 15px;
+    }
+}
+

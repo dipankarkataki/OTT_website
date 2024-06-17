@@ -13,8 +13,8 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 
 function Layout() {
   const logo =   <Link onClick={() =>  window.open('/',)}>
-                  <Image src=".././assets/images/streamTube-rmbg.png" alt="Image" width="100%" height="60"/>;
-                </Link>;
+                  <Image src=".././assets/images/streamTube-rmbg.png" alt="Image" width="100%" height="60"/>
+                </Link>
   
   const signIn = <Button label="Sign In" severity='danger' raised onClick={() =>  window.open('signup', '_blank')}/>
 

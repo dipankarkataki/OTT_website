@@ -14,11 +14,11 @@ function Plans() {
                 </p>
             </div>
         </div>
-        <div className='plan-cards flex flex-row flex-wrap justify-content-between align-items-center gap-5 mb-5'>
+        <div className='plan-cards flex flex-row justify-content-between align-items-center gap-5 mb-5'>
             <Card className='px-4 py-4 h-20rem w-10'>
                 <h4 className='text-white text-lg'>Basic Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Enjoy and extensive collection of movies and shows, 
-                    featuring a range of content, including recently released titles.
+                    featuring a range of content, including recent releases.
                 </p>
                 <h1 className='amount text-white'>$9.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
                 <div className='plan-button flex flex-row justify-content-start align-items-center gap-3'>

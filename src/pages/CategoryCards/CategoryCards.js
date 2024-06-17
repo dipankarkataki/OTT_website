@@ -4,7 +4,6 @@ import { Card } from 'primereact/card';
 import { Button } from 'primereact/button'
 import { Carousel } from 'primereact/carousel';
 import { Image } from 'primereact/image';
-import axios from 'axios';
 
 function CategoryCards() {
     const [movie, setMovies] = useState(['Hello', 'hello', 'hello', 'Hello', 'hello', 'hello']);

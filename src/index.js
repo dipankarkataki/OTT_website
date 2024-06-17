@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Layout from './pages/Layout/Layout';
 import Home from './pages/Home/Home';
+import Signup from './pages/Auth/Signup';
 
 
 
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
+          <Route path="signup" element={<Signup />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -4,7 +4,7 @@ import './AcrossDevices.css';
 
 function AcrossDevices() {
   return (
-    <div className='mx-auto w-10 pb-2 mt-5'>
+    <div className='mx-auto w-10 pb-2 mt-5 across-device'>
         <div className='flex flex-row justify-content-between mb-6'>
             <div className='heading-section'>
                 <h1 style={{color:'white'}}>We provide you streaming experience across various devices.</h1>

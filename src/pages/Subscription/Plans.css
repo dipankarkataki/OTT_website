@@ -9,3 +9,10 @@
     background: #141414;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 450px) {
+    .plan .heading-section h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}

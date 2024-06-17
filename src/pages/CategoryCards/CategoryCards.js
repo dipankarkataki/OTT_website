@@ -43,7 +43,7 @@ function CategoryCards() {
 
     const movieTemplate = (movie) => {
         return (
-           <div className='movie-card ml-3 mr-3'>
+           <div className='movie-card ml-4 mr-3'>
                 <div className='movie-img'>
                     <Image src=".././assets/images/archer.jpg" alt="Image"  width="100%" />;
                 </div>

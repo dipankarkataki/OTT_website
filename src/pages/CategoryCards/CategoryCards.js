@@ -36,8 +36,8 @@ function CategoryCards() {
         },
         {
             breakpoint: '450px',
-            numVisible: 3,
-            numScroll: 1
+            numVisible: 1,
+            numScroll: 2
         }
     ];
 
@@ -56,7 +56,7 @@ function CategoryCards() {
     };
 
     return (
-        <div className="card ">
+        <div className="card overflow-hidden">
             <Carousel value={movie} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={movieTemplate} />
         </div>
     )

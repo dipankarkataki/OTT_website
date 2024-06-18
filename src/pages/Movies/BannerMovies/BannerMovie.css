@@ -12,10 +12,10 @@
 .banner-movie-card .overlay{
     position: absolute;
     display: block;
-    width: 92%;
-    height: 760px;
+    width: 94%;
+    height: 768px;
     top: 12%;
-    left: 4%;
+    left: 3%;
     background-color: rgb(0 0 0 / 15%);
     z-index: 2;
     cursor: pointer;

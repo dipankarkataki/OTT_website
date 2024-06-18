@@ -24,7 +24,8 @@ function Layout() {
   }
   const menuItems = [
     {
-        'label' : 'Movies'
+      'label' : 'Movies',
+      url: 'movies'
     },
     {
         'label' : 'Tv Shows'

@@ -1,0 +1,15 @@
+.movie-list .p-fieldset .p-fieldset-legend {
+    padding: 0.8rem;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    background: #ff0000;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.movie-list .p-fieldset {
+    border: 2px solid #ffffff12;
+    background: #141414;
+    color: #141414;
+    border-radius: 5px;
+}

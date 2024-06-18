@@ -1,0 +1,48 @@
+.banner-movie img{
+    border-radius:10px;
+}
+.banner-movie-card .movie-content{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    right: 50px;
+    transform: translate(-50%,-70%);
+    z-index: 4;
+}
+.banner-movie-card .overlay{
+    position: absolute;
+    display: block;
+    width: 92%;
+    height: 760px;
+    top: 12%;
+    left: 4%;
+    background-color: rgb(0 0 0 / 15%);
+    z-index: 2;
+    cursor: pointer;
+}
+.banner-movie-card .p-carousel-items-content{
+    max-height: 750px;
+}
+
+.banner-movie-card .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background-color: #f32121;
+}
+
+.banner-movie-card .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    height: 0.2rem;
+    background-color: #3c3c3c;
+}
+
+@media only screen and (max-width:450px){
+    .banner-movie-card .overlay {
+        position: absolute;
+        display: block;
+        width: 68%;
+        height: 156px;
+        top: 15%;
+        left: 16%;
+        background-color: rgb(0 0 0 / 10%);
+        z-index: 2;
+        cursor: pointer;
+    }
+}

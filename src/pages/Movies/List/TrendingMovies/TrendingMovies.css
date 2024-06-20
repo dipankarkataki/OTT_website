@@ -1,0 +1,9 @@
+.movie-card .duration{
+    padding:5px 10px 5px 10px;
+    background:rgb(48, 48, 48);
+    border-radius:5px;
+}
+
+.movie-card .duration .pi-clock{
+    color:red;
+}

@@ -11,7 +11,7 @@ function TrendingMovies(){
     const responsiveOptions = [
         {
             breakpoint: '3258px',
-            numVisible: 4,
+            numVisible: 5,
             numScroll: 1
         },
         {
@@ -48,7 +48,7 @@ function TrendingMovies(){
                     <Image src=".././assets/images/red.jpg" alt="Image"  width="100%" />;
                 </div>
                 <div className='movie-genre flex flex-row justify-content-between align-items-center'>
-                    <h3 className='text-white-alpha-80'>Action</h3>
+                    <h5 className='flex flex-row justify-content-center align-items-center text-white-alpha-60 duration font-bold'> <i className="pi pi-clock mr-2"></i>3hrs 30min</h5>
                     <Button className='text-white-alpha-80' link icon="pi pi-arrow-right" />
                 </div>
            </div>

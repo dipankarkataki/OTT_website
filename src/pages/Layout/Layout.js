@@ -16,7 +16,7 @@ function Layout() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const logo =   <Link onClick={() =>  window.open('/',)}>
+  const logo =   <Link to={'/'}>
                   <Image src=".././assets/images/streamTube-rmbg.png" alt="Image" width="100%" height="60"/>
                 </Link>
   

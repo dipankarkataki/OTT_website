@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import './Signup.css';
 import { InputText } from "primereact/inputtext";
 import { Image } from "primereact/image";
+import { Dropdown } from 'primereact/dropdown';
+import CountryCode from "./country-code";
 
 function Signup(){
+
+    const [selectedCountry, setSelectedCountry] = useState(null);
+    const country = [
+        {
+            "name": "Afghanistan",
+            "dial_code": "+93",
+            "code": "AF"
+            },
+            {
+            "name": "Aland Islands",
+            "dial_code": "+358",
+            "code": "AX"
+            },
+            {
+            "name": "Albania",
+            "dial_code": "+355",
+            "code": "AL"
+            },
+    ];
     return (
         <div className="h-full signup flex flex-row">
             <div className="media-area">
@@ -24,10 +45,9 @@ function Signup(){
                     <div className="flex flex-column gap-2">
                         <label htmlFor="username" className="text-white">Phone Number</label>
                         <div className="p-inputgroup ">
-                            <span className="p-inputgroup-addon">
-                                <i className="pi pi-user"></i>
-                            </span>
-                            <InputText placeholder="Username" />
+                        <Dropdown value={selectedCountry} onChange={(e) => setSelectedCountry(e.value)} options={country} optionLabel="dial_code" placeholder="Country"
+                           style={{maxWidth:'100px'}}/>
+                            <InputText placeholder="Phone Number" />
                         </div>
                     </div>
                 </div>

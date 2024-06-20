@@ -18,7 +18,7 @@ function Banner() {
                 Our user-friendly interface and high-quality streaming ensure that you enjoy your favorite entertainment 
                 seamlessly, anytime and anywhere. Join StreamTube today and dive into a world of endless entertainment possibilities!
             </p>
-            <Button label='Start Watching Now' severity='danger' icon="pi pi-play-circle" raised/>
+            <Button label='Start Watching Now' severity='danger' icon="pi pi-play-circle" raised />
         </div>
     </>
   )

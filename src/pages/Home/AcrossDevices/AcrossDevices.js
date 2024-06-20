@@ -8,7 +8,7 @@ function AcrossDevices() {
         <div className='flex flex-row justify-content-between mb-6'>
             <div className='heading-section'>
                 <h1 style={{color:'white'}}>We provide you streaming experience across various devices.</h1>
-                <p className='w-10 line-height-3' style={{color:'#787878'}}>With StreamTube you can access your favourite movies & tv shows anytime, 
+                <p className='w-full md:w-10 line-height-3' style={{color:'#787878'}}>With StreamTube you can access your favourite movies & tv shows anytime, 
                     anywhere. Our platform is designed to be compatible with wide range of devices. Ensuring that you 
                     never miss a moment of entertainment.
                 </p>
@@ -23,7 +23,7 @@ function AcrossDevices() {
                     </div>
                     <h2 className='text-white'>SmartPhones</h2>
                 </div>
-                <p className='device-card-content  line-height-3 ml-4'>
+                <p className='device-card-content line-height-3 ml-4'>
                     StreamTube is optimized for both Android and iOS phones.
                     Download out app from Play Store or App Store.
                 </p>

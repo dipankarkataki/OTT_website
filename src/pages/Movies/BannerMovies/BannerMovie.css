@@ -1,0 +1,89 @@
+.banner-movie img{
+    border-radius: 10px;
+    max-height: 750px;
+    object-fit: cover;
+    object-position: top center;
+}
+.banner-movie .movie-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50px;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+    width:100%;
+}
+.banner-movie .movie-content .name {
+    text-shadow: 0px 5px 10px #0000003d;
+    font-size: 80px;
+    margin-bottom:0px;
+}
+
+.banner-movie .movie-content .description{
+    font-weight: bolder;
+    text-shadow: 0px 5px 10px #00000040;
+    background: #00000001;
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.banner-movie-card .overlay{
+    position: absolute;
+    display: none;
+    width: 94%;
+    height: 768px;
+    top: 12%;
+    left: 3%;
+    background-color: rgb(0 0 0 / 15%);
+    z-index: 2;
+    cursor: pointer;
+}
+.banner-movie-card .p-carousel-items-content{
+    max-height: 750px;
+}
+
+.banner-movie-card .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background-color: #f32121;
+}
+
+.banner-movie-card .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    height: 0.2rem;
+    background-color: #b3b1b1;
+}
+
+.banner-movie-card .p-carousel .p-carousel-indicators {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    right: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.movie-content button{
+    font-size:30px;
+}
+
+@media only screen and (max-width:450px){
+    .banner-movie-card .overlay {
+        position: absolute;
+        display: block;
+        width: 68%;
+        height: 156px;
+        top: 15%;
+        left: 16%;
+        background-color: rgb(0 0 0 / 10%);
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .banner-movie .movie-content .name {
+        font-size: 25px;
+        margin-bottom:5px;
+    }
+
+    .movie-content button{
+        font-size:10px;
+    }
+}

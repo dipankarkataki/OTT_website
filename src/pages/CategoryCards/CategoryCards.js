@@ -56,8 +56,8 @@ function CategoryCards() {
     };
 
     return (
-        <div className="card overflow-hidden">
-            <Carousel value={movie} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={movieTemplate} />
+        <div className="card overflow-hidden category-cards">
+            <Carousel value={movie} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} circular autoplayInterval={3000} itemTemplate={movieTemplate} />
         </div>
     )
 }

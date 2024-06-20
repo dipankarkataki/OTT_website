@@ -15,33 +15,33 @@ function Plans() {
             </div>
         </div>
         <div className='plan-cards flex flex-row flex-wrap md:flex-nowrap justify-content-between align-items-center gap-5 mb-5'>
-            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
+            <Card className='px-4 py-4 h-full md:h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Basic Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Enjoy and extensive collection of movies and shows, 
                     featuring a range of content, including recent releases.
                 </p>
-                <h1 className='amount text-white'>$9.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
-                <div className='plan-button flex flex-row justify-content-start align-items-center gap-3'>
+                <h1 className='amount text-white'>$3.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
+                <div className='plan-button flex flex-row flex-wrap md:flex-nowrap justify-content-start align-items-center gap-3'>
                     <Button className='free-trial-btn' label='Start Free Trial' />
                     <Button label='Choose Plan' severity='danger'/>
                 </div>
             </Card>
-            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
+            <Card className='px-4 py-4 h-full md:h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Standard Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Access to wider selection of movies and shows. Including most new releases and exclusive content.
                 </p>
-                <h1 className='amount text-white'>$12.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
-                <div className='plan-button flex flex-row justify-content-start align-items-center gap-3'>
+                <h1 className='amount text-white'>$5.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
+                <div className='plan-button flex flex-row  flex-wrap md:flex-nowrap justify-content-start align-items-center gap-3'>
                     <Button className='free-trial-btn' label='Start Free Trial' />
                     <Button label='Choose Plan' severity='danger'/>
                 </div>
             </Card>
-            <Card className='px-4 py-4 h-20rem w-full md:w-1/4'>
+            <Card className='px-4 py-4 h-full md:h-20rem w-full md:w-1/4'>
                 <h4 className='text-white text-lg'>Premium Plan</h4>
                 <p className='text-white-alpha-50 plan-info text-sm line-height-3'>Enjoy and extensive collection of movies and shows, with our offline watch feature.
                 </p>
-                <h1 className='amount text-white'>$14.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
-                <div className='plan-button flex flex-row justify-content-start align-items-center gap-3'>
+                <h1 className='amount text-white'>$7.99 <span className='text-white-alpha-30 text-sm'>/ month</span></h1>
+                <div className='plan-button flex flex-row flex-wrap md:flex-nowrap justify-content-start align-items-center gap-3'>
                     <Button className='free-trial-btn' label='Start Free Trial' />
                     <Button label='Choose Plan' severity='danger'/>
                 </div>

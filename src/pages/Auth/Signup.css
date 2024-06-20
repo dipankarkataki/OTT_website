@@ -2,8 +2,26 @@
     margin:100px;
 }
 .signup .form-area{
-    background: black;
+    background: rgb(31, 31, 31);
     height: 100%;
     padding: 50px;
     margin-top: 100px;
+    border:1px solid rgb(41, 41, 41);
+    border-radius:5px;
+}
+.signup .form-area label{
+    font-size:14px;
+}
+.signup .form-area ::placeholder{
+    font-size:14px;
+}
+
+@media only screen and (max-width:450px){
+    .signup .form-area{
+        margin-top: 0px;
+    }
+
+    .signup .media-area{
+        margin:25px;
+    }
 }

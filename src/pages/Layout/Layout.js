@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Layout.css';
 
 import 'primereact/resources/themes/saga-blue/theme.css'; 
@@ -9,23 +9,30 @@ import { Button } from 'primereact/button';
 import { Menubar } from 'primereact/menubar';
 import { Image } from 'primereact/image';
 
-import { Outlet, Link, useLocation } from 'react-router-dom';
+import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 
 function Layout() {
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const logo =   <Link onClick={() =>  window.open('/',)}>
                   <Image src=".././assets/images/streamTube-rmbg.png" alt="Image" width="100%" height="60"/>
                 </Link>
   
   const signIn = <Button label="Sign In" severity='danger' raised onClick={() =>  window.open('signup', '_blank')}/>
 
-  const location = useLocation();
+  
   const main_bg_color = {
     background: location.pathname === '/' ? 'transparent' : 'black',
   }
+
   const menuItems = [
     {
       'label' : 'Movies',
-      url: 'movies'
+      command: () => {
+        navigate('movies')
+      },
     },
     {
         'label' : 'Tv Shows'

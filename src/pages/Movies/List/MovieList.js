@@ -1,6 +1,7 @@
 import React from 'react';
 import './MovieList.css';
 import CategoryCards from '../../CategoryCards/CategoryCards';
+import TrendingMovies from './TrendingMovies/TrendingMovies';
 
 function MovieList() {
   return (
@@ -9,6 +10,11 @@ function MovieList() {
         <div className='flex flex-row flex-wrap md:flex-nowrap justify-content-between mt-5 pb-8 gap-3'>
           <CategoryCards />
         </div> 
+
+        <h1 className='text-white font-bold text-xl md:text-4xl mb-6 ml-5'>Trending Movies</h1>
+        <div className='flex flex-row flex-wrap md:flex-nowrap justify-content-between mt-5 pb-8 gap-3'>
+          <TrendingMovies />
+        </div>
     </div>
   )
 }

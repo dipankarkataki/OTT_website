@@ -20,7 +20,7 @@ function Layout() {
                   <Image src=".././assets/images/streamTube-rmbg.png" alt="Image" width="100%" height="60"/>
                 </Link>
   
-  const signIn = <Button label="Sign In" severity='danger' raised onClick={() =>  window.open('signup', '_blank')}/>
+  const signIn = <Button label="Sign In" severity='danger' raised onClick={() =>  navigate('signup')}/>
 
   
   const main_bg_color = {
